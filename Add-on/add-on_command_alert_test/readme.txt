@@ -10,8 +10,15 @@ Alt+A,Alt+W押下でそれぞれアラートを表示する。
 backgroundは非推奨でcontent_scriptsのほうが良いらしい。
 でもコマンドはbackgroundじゃないと動かん
 以下はcontent_scripts用
+
+//  "content_scripts": [
+//  {
+//  "matches": [ "http://*/*", "https://*/*" ],
+//    "js": [ "background.js" ]
+//  }],
+
 //chrome.browserAction.onClicked.addListener(function(tab) {
- // alert("test");
+// alert("test");
 //});
 BackGroundと共存はできない。
 

@@ -18,13 +18,6 @@
     "scripts": ["background.js"],
     "persistent": true
     },
-
-//  "content_scripts": [
-//  {
-//  "matches": [ "http://*/*", "https://*/*" ],
-//    "js": [ "background.js" ]
-//  }],
-
   
   "commands": {
     "myCommand1": {
