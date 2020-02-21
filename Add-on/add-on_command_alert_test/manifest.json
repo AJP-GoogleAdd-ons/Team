@@ -1,0 +1,38 @@
+// manifest
+{
+  "name": "command test",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
+ "permissions": [
+    "<all_urls>"
+  ],  
+
+"background":
+    {
+    "scripts": ["background.js"],
+    "persistent": true
+    },
+  
+  "commands": {
+    "myCommand1": {
+      "suggested_key": {
+              "default": "Alt+W",
+      "linux": "Alt+W"
+      },
+      "description": "Send 'myCommand1' event to the extension"
+    },
+    "myCommand2": {
+      "suggested_key": {
+              "default": "Alt+A",
+      "linux": "Alt+A"
+      },
+      "description": "Send 'myCommand2' event to the extension"
+    }
+  }
+}
