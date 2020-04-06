@@ -1,0 +1,9 @@
+{
+  "name": "team_ajp",
+  "version": "0.0.0",
+  "description": "team_ajp",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
